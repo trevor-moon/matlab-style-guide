@@ -15,21 +15,35 @@ Additional background information can be found [here](#additional-background).
 
 ## Style-Guide
 
-Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources. These include the [MATLAB Style 2.0][matlab-style-2.0] by XXXX, [Elements of MATLAB Style][matlab-style-2.0] by XXXX ([Updates][]), and [MATLAB Programming Style Guide][programming-style-guide].
+Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
+
+- [MATLAB Style 2.0][matlab-style-2.0]
+- [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
+- [MATLAB Programming Style Guide][programming-style-guide]
 
 For more downloadable or linked resources, see [Resources](#resources).
 
 ### Proposed
 
-Although there are several important considerations for a complete style-guide, below are the proposed naming conventions.
+Although there are several important considerations for a [complete style-guide][proposed-style-guide], below are the proposed naming conventions.
 
-| Type | Naming Convention | Example |
-| ---- | ----------------- | ------- |
-|      |                   |         |  
+| Type             | Naming Convention              |
+| ---------------- | ------------------------------ |
+| Variables        | camelCase                      |
+| Functions        | camelCase                      |
+| Scripts          | camelCase                      |
+| Classes          | PascalCase                     |
+| Class Properties | camelCase                      |
+| Class Methods    | camelCase                      |
+| Packages         | lowercase (short, if possible) |
+| Global           | UPPERCASE, UPPER_SNAKE_CASE    |
+| Constant         | UPPERCASE, UPPER_SNAKE_CASE    |
 
-A complete proposed style-guide can be found [here][proposed-style-guide] - Do not want to bore all the details upfront :)
+A complete proposed style-guide can be found [here][proposed-style-guide] - Do not want to bore with all the details upfront :)
 
-> Consider applying the [PEP8][pep8-style] to your MATLAB code. Most recommendations will follow existing MATLAB conventions and/or previously community developed styles or see [Alternative Style-Guides](#alternative-style-guides).
+> The guide will also provide  information for *why* these conventions were selected.
+
+<!-- > Consider applying the [PEP8][pep8-style] to your MATLAB code. Most recommendations will follow existing MATLAB conventions and/or previously community developed styles or see [Alternative Style-Guides](#alternative-style-guides). -->
 
 ### Recommendations
 
@@ -39,16 +53,14 @@ If you do not like the proposed style conventions above, have questions, or have
 - [Starting a conversation](#contact)
 - [Have a look at alternatives](#alternative-style-guides)
 
-### Alternative Style-Guides
-
-1. [MATLAB Style 2.0][matlab-style-2.0]
-2. [MATLAB Programming Style Guide][programming-style-guide]
-3. [PEP8][pep8-style]
-
 ## Resources
 
 Previously developed style-guides:
 
+- [MATLAB Style 2.0][matlab-style-2.0]
+- [MATLAB Programming Style Guide][programming-style-guide]
+- [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
+- [PEP8][pep8-style]
 - [Google Stlye Guides][google-style-guide]
 
 Other useful resources:
@@ -79,9 +91,12 @@ GitHub projects:
 ## Contact
 
 <!-- links -->
+
 [proposed-style-guide]: style_guide.md
 [pep8-style]: https://www.python.org/dev/peps/pep-0008/
 [matlab-style-2.0]: https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0
+[elements-matlab-style]: https://www.amazon.com/Elements-Matlab-Style-Richard-Johnson-dp-0521732581/dp/0521732581/ref=mt_other?_encoding=UTF8&me=&qid=
+[elements-matlab-style-updates]: https://www.mathworks.com/matlabcentral/fileexchange/36540-updates-to-the-elements-of-matlab-style
 [programming-style-guide]: https://sites.google.com/site/matlabstyleguidelines/home?authuser=0
 [naming-convention-wiki]: https://en.wikipedia.org/wiki/Naming_convention_(programming)#Language-specific_conventions
 [coding-convention-wiki]: https://en.wikipedia.org/wiki/Coding_conventions#Common_conventions
