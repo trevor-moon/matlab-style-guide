@@ -15,7 +15,7 @@ Additional background information can be found [here](#additional-background).
 
 ## Style-Guide
 
-Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources. These include the [MATLAB Style 2.0][matlab-style-2.0] by XXXX, [Elements of MATLAB Style][] by XXXX ([Updates][]), and [MATLAB Programming Style Guide][programming-style-guide].
+Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources. These include the [MATLAB Style 2.0][matlab-style-2.0] by XXXX, [Elements of MATLAB Style][matlab-style-2.0] by XXXX ([Updates][]), and [MATLAB Programming Style Guide][programming-style-guide].
 
 For more downloadable or linked resources, see [Resources](#resources).
 
@@ -81,8 +81,7 @@ GitHub projects:
 <!-- links -->
 [proposed-style-guide]: style_guide.md
 [pep8-style]: https://www.python.org/dev/peps/pep-0008/
-[matlab-style-2.0]:
-[elements-of-matlab]:
+[matlab-style-2.0]: https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0
 [programming-style-guide]: https://sites.google.com/site/matlabstyleguidelines/home?authuser=0
 [naming-convention-wiki]: https://en.wikipedia.org/wiki/Naming_convention_(programming)#Language-specific_conventions
 [coding-convention-wiki]: https://en.wikipedia.org/wiki/Coding_conventions#Common_conventions
