@@ -83,9 +83,11 @@ GitHub projects:
 - [ ] Develop Style-Guide
 - [ ] Link relevant resources (style-guides, programming conventions, etc)
 - [ ] Website?
+- [ ] Develop contributing document
 
 ## Contributing
 
+If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
 ## License
 
 ## Contact
