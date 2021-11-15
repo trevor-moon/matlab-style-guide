@@ -74,6 +74,10 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
 ## License
 
+See [License](LICENSE.md).
+
+<!-- <a href="https://github.com/trevor-moon/matlab-style-guide/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/trevor-moon/matlab-style-guide"/></a> -->
+
 ## Contact
 
 Please contact me if you have any questions or suggestions about the project.

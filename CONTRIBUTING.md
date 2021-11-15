@@ -1,1 +1,3 @@
 # Contributing
+
+Coming soon!
