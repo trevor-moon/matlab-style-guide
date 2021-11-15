@@ -71,10 +71,10 @@ Other useful resources:
 
 GitHub projects:
 
-- <https://github.com/jasonnicholson/Matlab-Style-Guidelines-Cheat-Sheet>
-- <https://github.com/jonellingsen/MatLab>
-- <https://github.com/ishiikurisu/MATLAB-style>
-- <https://github.com/eeberhard/matlab_style_guide>
+- [Matlab Style Guidelines Cheat Sheet](https://github.com/jasonnicholson/Matlab-Style-Guidelines-Cheat-Sheet)
+- [MatLab](https://github.com/jonellingsen/MatLab)
+- [MATLAB Style](https://github.com/ishiikurisu/MATLAB-style)
+- [Matlab Style Guide](https://github.com/eeberhard/matlab_style_guide)
 
 ### Additional Background
 
