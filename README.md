@@ -56,7 +56,11 @@ GitHub projects:
 - [MATLAB Style](https://github.com/ishiikurisu/MATLAB-style)
 - [Matlab Style Guide](https://github.com/eeberhard/matlab_style_guide)
 
-### Additional Background
+## Additional Background
+
+**Personal note**: I tend to spend a lot of time determining the *correct* semantics and style to use in my MATLAB projects, and the community either a) is divided in their recommendations or b) does not provide formal documentation. So, my goal was to create something both for myself and others to reference.
+
+Historically, MATLAB has used `lowercase` for files in their developed toolboxes, with some instances of `camelCase` or `PascalCase`. To better distinguish user-defined files from MATLAB built-in, I follow `camelCase` or `snake_case` naming conventions. Moreover, I find it more clear for readability.
 
 ## Roadmap
 
