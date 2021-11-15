@@ -25,27 +25,7 @@ For more downloadable or linked resources, see [Resources](#resources).
 
 ### Proposed
 
-Although there are several important considerations for a [complete style-guide][proposed-style-guide], below are the proposed naming conventions.
-
-| Type             | Naming Convention              |
-| ---------------- | ------------------------------ |
-| Variables        | camelCase                      |
-| Functions        | camelCase                      |
-| Scripts          | camelCase                      |
-| Classes          | PascalCase                     |
-| Class Properties | camelCase                      |
-| Class Methods    | camelCase                      |
-| Packages         | lowercase (short, if possible) |
-| Global           | UPPERCASE, UPPER_SNAKE_CASE    |
-| Constant         | UPPERCASE, UPPER_SNAKE_CASE    |
-
 A complete proposed style-guide can be found [here][proposed-style-guide] - Do not want to bore with all the details upfront :)
-
-> The guide will also provide  information for *why* these conventions were selected.
-
-<!-- > Consider applying the [PEP8][pep8-style] to your MATLAB code. Most recommendations will follow existing MATLAB conventions and/or previously community developed styles or see [Alternative Style-Guides](#alternative-style-guides). -->
-
-### Recommendations
 
 If you do not like the proposed style conventions above, have questions, or have recommendations, please consider
 
