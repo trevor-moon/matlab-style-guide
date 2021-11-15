@@ -30,8 +30,8 @@ A complete proposed style-guide can be found [here][proposed-style-guide] - Do n
 If you do not like the proposed style conventions above, have questions, or have recommendations, please consider
 
 - [Contributing](#contributing)
-- [Starting a conversation](#contact)
-- [Have a look at alternatives](#alternative-style-guides)
+- [See alternatives](#resources)
+- [Contact me](#contact)
 
 ## Resources
 
@@ -64,7 +64,7 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 
 ## Roadmap
 
-- [ ] Develop Style-Guide
+- [ ] Develop comprehensive style-guide
 - [ ] Link relevant resources (style-guides, programming conventions, etc)
 - [ ] Website?
 - [ ] Develop contributing document
