@@ -25,7 +25,7 @@ Additional background information can be found [here](#additional-background).
 >
 > For more downloadable or linked resources, see [Resources](#resources).
 
-### Proposed
+### My Recommendation
 
 The complete style guide can be found [here][proposed-style-guide].
 
