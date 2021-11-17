@@ -1,4 +1,4 @@
-# matlab-style-guide
+# MATLAB Style Guide
 
 Collection of proposed MATLAB style guides, naming conventions, and recommendations.
 
@@ -13,9 +13,9 @@ Here, I hope to maintain a library of resources and recommendations to
 
 Additional background information can be found [here](#additional-background).
 
-## Style-Guide
+## Style Guide
 
-**Disclaimer:** The [style-guide][proposed-style-guide] in this project is my opinion. However, it follows most of the content/consensus in prior documentation.
+**Disclaimer:** The [style guide][proposed-style-guide] in this project is my opinion. However, it follows most of the content/consensus in prior documentation.
 
 > Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
 >
@@ -27,7 +27,7 @@ Additional background information can be found [here](#additional-background).
 
 ### Proposed
 
-The complete style-guide can be found [here][proposed-style-guide].
+The complete style guide can be found [here][proposed-style-guide].
 
 > I did not want to bore with all the details upfront :)
 
