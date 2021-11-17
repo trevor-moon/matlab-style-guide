@@ -29,8 +29,6 @@ Additional background information can be found [here](#additional-background).
 
 The complete style guide can be found [here][proposed-style-guide].
 
-> I did not want to bore with all the details upfront :)
-
 Do you disagree or see problems? Maybe questions or recommendations? Consider one or more of the following
 
 - [Contributing](#contributing)
