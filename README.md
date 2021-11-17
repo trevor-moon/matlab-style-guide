@@ -67,7 +67,7 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 ## Roadmap
 
 - [ ] Develop comprehensive style-guide
-- [ ] Link relevant resources (style-guides, programming conventions, etc)
+- [x] Link relevant resources (style-guides, programming conventions, etc)
 - [ ] Website?
 - [ ] Develop contributing document
 
