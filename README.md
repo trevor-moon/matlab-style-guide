@@ -1,4 +1,4 @@
-# matlab-style-guide
+# MATLAB Style Guide
 
 Collection of proposed MATLAB style guides, naming conventions, and recommendations.
 
@@ -13,21 +13,23 @@ Here, I hope to maintain a library of resources and recommendations to
 
 Additional background information can be found [here](#additional-background).
 
-## Style-Guide
+## Style Guide
 
-Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
+**Disclaimer:** The [style guide][proposed-style-guide] in this project is my opinion. However, it follows most of the content/consensus in prior documentation.
 
-- [MATLAB Style 2.0][matlab-style-2.0]
-- [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
-- [MATLAB Programming Style Guide][programming-style-guide]
+> Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
+>
+> - [MATLAB Style 2.0][matlab-style-2.0]
+> - [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
+> - [MATLAB Programming Style Guide][programming-style-guide]
+>
+> For more downloadable or linked resources, see [Resources](#resources).
 
-For more downloadable or linked resources, see [Resources](#resources).
+### My Recommendation
 
-### Proposed
+The complete style guide can be found [here][proposed-style-guide].
 
-A complete proposed style-guide can be found [here][proposed-style-guide] - Do not want to bore with all the details upfront :)
-
-If you do not like the proposed style conventions above, have questions, or have recommendations, please consider
+Do you disagree or see problems? Maybe questions or recommendations? Consider one or more of the following
 
 - [Contributing](#contributing)
 - [See alternatives](#resources)
@@ -65,13 +67,14 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 ## Roadmap
 
 - [ ] Develop comprehensive style-guide
-- [ ] Link relevant resources (style-guides, programming conventions, etc)
+- [x] Link relevant resources (style-guides, programming conventions, etc)
 - [ ] Website?
 - [ ] Develop contributing document
 
 ## Contributing
 
 If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
+
 ## License
 
 See [License](LICENSE.md).
