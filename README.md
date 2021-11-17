@@ -27,9 +27,11 @@ Additional background information can be found [here](#additional-background).
 
 ### Proposed
 
-A complete proposed style-guide can be found [here][proposed-style-guide] - Do not want to bore with all the details upfront :)
+The complete style-guide can be found [here][proposed-style-guide].
 
-If you do not like the proposed style conventions above, have questions, or have recommendations, please consider
+> I did not want to bore with all the details upfront :)
+
+Do you disagree or see problems? Maybe questions or recommendations? Consider one or more of the following
 
 - [Contributing](#contributing)
 - [See alternatives](#resources)
@@ -74,6 +76,7 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 ## Contributing
 
 If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
+
 ## License
 
 See [License](LICENSE.md).
