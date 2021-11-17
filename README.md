@@ -15,7 +15,7 @@ Additional background information can be found [here](#additional-background).
 
 ## Style-Guide
 
-**Disclaimer:** The style-guide in this project is my opinion. However, it follows most of the content/consensus in previously referred documentation.
+**Disclaimer:** The [style-guide][proposed-style-guide] in this project is my opinion. However, it follows most of the content/consensus in prior documentation.
 
 > Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
 >
