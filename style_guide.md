@@ -61,6 +61,28 @@ A = [...
 
 > The first method is preferred for easier readability between commands.
 
+Indent all functions (it's just easier to read).
+
+```text
+# function
+function n = addTwoNum(a, b)
+    n = a + b;
+end
+
+# class
+class Person
+    properties
+        name = 'John';
+    end
+
+    methods
+        function greeting(obj)
+            fprintf('Hello, my name is %s\n', obj.name);
+        end
+    end
+end
+```
+
 ### Tabs or Spaces
 
 Spaces are preferred indentation.
