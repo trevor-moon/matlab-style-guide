@@ -61,6 +61,12 @@ A = [...
 
 > The first method is preferred for easier readability between commands.
 
+### Tabs or Spaces
+
+Spaces are preferred indentation.
+
+Tabs should **only** be used with existing code using tab indentation.
+
 ### Strings
 
 ### Whitespace
