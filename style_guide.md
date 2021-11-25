@@ -89,6 +89,60 @@ Spaces are preferred indentation.
 
 Tabs should **only** be used with existing code using tab indentation.
 
+### Maximum Line Length
+
+Limit all lines to a maximum of 80. The MATLAB editor default is 75.
+
+The line length (80) is standard for ASCII format.
+
+To avoid exceeding the line length, use `...`
+
+```text
+result = functionWithVeryLongName(arg1, arg2, arg3, ...
+    arg4, arg5 ...
+    );
+```
+
+### When should I line break?
+
+Use line breaks before binary operators.
+
+```text
+income = [grossWages ...
+    + taxableInterest ...
+    + dividends ...
+    ];
+```
+
+### Blank Lines
+
+Use 2 blank lines around top-level definitions.
+
+Use 1 blank line around local or nested definitions.
+
+Use single blank lines *sparingly* inside functions or methods to indicate logical sections.
+
+```text
+function m = computeSlope(x1, y1, x2, y2)
+    # slope of a line
+    #   m = dy / dx
+    #   m = rise / run
+    dy = computeRise(y1, y2);
+    dx = computeRun(x1, x2);
+    m = dy / dx;
+end
+
+
+# local functions
+function dy = computeRise(y1, y2)
+    dy = y2 - y1;
+end
+
+function dx = computeRun(x1, x2)
+    dx = x2 - x1;
+end
+```
+
 ### Strings
 
 ### Whitespace
