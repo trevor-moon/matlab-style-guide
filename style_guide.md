@@ -10,6 +10,57 @@ The conventions presented in this document *mostly* agree with previously develo
 
 ## Layout
 
+### Indentation
+
+Use 4 spaces per indentation level.
+
+Indentations continuing long lines of code should add an extra level.
+
+```text
+result = functionWithLongName(arg1, arg2, arg3, ...
+    arg4, arg5);
+```
+
+Optionally add 4 (extra) spaces to *better* distinguish long argument list items from others.
+
+```text
+result = functionWithLongName(...
+        arg1, arg2, arg3, ...
+        arg4, arg5 ...
+        );
+```
+
+Use indentation to separate keyword/name-value arguments from one another.
+
+```text
+result = functionWithLongName(...
+    key1, value1, ...
+    key2, value2, ...
+    );
+```
+
+Multiline constructs (e.g., brackets, parenthesis) may either line up under the first non-whitespace character of the last line:
+
+```text
+A = [...
+    1, 2, 3, ...
+    4, 5, 6, ...
+    7, 8, 9
+    ];
+```
+
+or it may be lined up under the first character of the line that starts the construct:
+
+```text
+A = [...
+    1, 2, 3, ...
+    4, 5, 6, ...
+    7, 8, 9
+];
+```
+
+> The first method is preferred for easier readability between commands.
+
 ### Strings
 
 ### Whitespace
