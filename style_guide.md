@@ -4,6 +4,10 @@ This style guide inspired by [PEP8](https://www.python.org/dev/peps/pep-0008/) f
 
 ## Introduction
 
+This document provides coding conventions for MATLAB code. This style guide can/will evolve over time and is a reflection of *my general* conventions.
+
+The conventions presented in this document *mostly* agree with previously developed conventions.
+
 ## Layout
 
 ### Strings
