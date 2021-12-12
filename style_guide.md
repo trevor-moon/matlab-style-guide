@@ -21,13 +21,17 @@ result = functionWithLongName(arg1, arg2, arg3, ...
     arg4, arg5);
 ```
 
-Optionally add 4 (extra) spaces to *better* distinguish long argument list items from others.
+The closing parenthesis or bracket should be in-line (1) or the first character on a new line (2):
 
 ```text
+#1
+result = functionWithLongName(arg1, arg2, arg3, ...
+    arg4, arg5);
+
+#2
 result = functionWithLongName(...
-        arg1, arg2, arg3, ...
-        arg4, arg5 ...
-        );
+    arg1, arg2, arg3, arg4, arg5 ...
+    );
 ```
 
 Use indentation to separate keyword/name-value arguments from one another.
@@ -39,6 +43,8 @@ result = functionWithLongName(...
     );
 ```
 
+This is especially useful when there a multiple keyword/name-value arguments.
+
 Multiline constructs (e.g., brackets, parenthesis) may either line up under the first non-whitespace character of the last line:
 
 ```text
@@ -49,19 +55,18 @@ A = [...
     ];
 ```
 
-or it may be lined up under the first character of the line that starts the construct:
+or it may be included in the last line of the construct (similar to function arguments)
 
 ```text
 A = [...
     1, 2, 3, ...
     4, 5, 6, ...
-    7, 8, 9
-];
+    7, 8, 9 ];
 ```
 
-> The first method is preferred for easier readability between commands.
+The first method is preferred for easier readability between commands.
 
-Indent all functions (it's just easier to read).
+Indent all functions - it's just easier to read.
 
 ```text
 # function
@@ -99,8 +104,7 @@ To avoid exceeding the line length, use `...`
 
 ```text
 result = functionWithVeryLongName(arg1, arg2, arg3, ...
-    arg4, arg5 ...
-    );
+    arg4, arg5);
 ```
 
 ### When should I line break?
@@ -120,7 +124,7 @@ Use 2 blank lines around top-level definitions.
 
 Use 1 blank line around local or nested definitions.
 
-Use single blank lines *sparingly* inside functions or methods to indicate logical sections.
+Use single blank lines sparingly inside functions or methods to indicate logical sections.
 
 ```text
 function m = computeSlope(x1, y1, x2, y2)
