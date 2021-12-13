@@ -4,9 +4,9 @@ This style guide inspired by [PEP8](https://www.python.org/dev/peps/pep-0008/) f
 
 ## Introduction
 
-This document provides coding conventions for MATLAB code. This style guide can/will evolve over time and is a reflection of *my general* conventions.
+This document provides coding conventions for MATLAB code. This style guide can/will evolve over time and is a reflection of _my general_ conventions.
 
-The conventions presented in this document *mostly* agree with previously developed conventions.
+The conventions presented in this document _mostly_ agree with previously developed conventions.
 
 ## Layout
 
@@ -149,17 +149,140 @@ end
 
 ### Strings
 
+MATLAB "strings" are unique. Single-quoted text produce character arrays and double-quoted text produce _actual_ strings. These **are not** the same. There is no recommendation except to be consistent in your usage of single- and double-quoted text.
+
+For print statements with quotations, consider using double-quote to surround the text and single-quotes around the quoted text.
+
+```text
+# preferred method
+fprintf("This is the 'preferred' way of quoting")
+
+# less preferred
+fprintf('This is '''less preferred''')
+```
+
 ### Whitespace
 
-### Trailing Commas
+Use whitespace to increase readability.
+
+Some rules for when to use whitespace:
+
+- Immediately after a comma, semicolon, colon, or operator:
+
+```text
+x = 1; y = 1;
+z = x + y;
+```
+
+If there a long or multiple operators in a single statement, use space sparingly and give whitespace to grouped terms.
+
+```text
+# preferred
+a = 3;
+b = 4;
+c = a*a + b*b
+a = (b / sin(b)) * sin(A)
+
+# wrong
+c = a * a + b * b
+a = b / sin(b) * sin(A)
+```
+
+Do not use spaces to align assignments across lines.
+
+```text
+% DO NOT DO THIS
+a          = 1;
+b          = 3;
+hypotenuse = a^2 + b^2
+```
+
+Do not have trailing whitespace, e.g., space after command and before a new line.
+
+Use a space around function inputs.
 
 ## Comments
 
-### Block Comments
+Make comments clear, concise, and full sentences. This includes proper capitalization and punctuation.
 
-### Inline Comments
+Block comments should consists of paragraphs with the above rule.
 
-### Documentation Comments
+Use inline comments sparingly. If an inline comment is included, it should be separated with at least 2 spaces from the statement.
+
+```text
+% correct
+x = x + 1;  # my comment
+y = x * 3;      # my other comment
+
+% wrong
+z = x + y; # bad comment
+```
+
+### Documentation
+
+Good documentation is crucial.
+
+You should write documentation for all non-public or non-nested functions. For non-public or non-nested functions, classes, or modules, a single statement providing information of what it does is sufficient.
+
+```text
+% public function definition
+function y = foo(x)
+  % FUNCTION Perform random math on x
+  %
+  % Args:
+  %   x (double): Input
+  %
+  % Returns:
+  %   y (double): Output of math operation
+end
+
+% non-public function
+function y = boo(x)
+  % function takes input x and prints to screen
+end
+```
+
+The help section should inside the function, class, or module definition block. The help section should follow the same indentation rules.
+
+There should be one blank line between the help section and the code. The only exception is for small functions or scripts, e.g, less than 5 lines *or so*.
+
+```text
+function y = boo(x)
+  % function takes input x and prints to screen
+  fprintf('input was %s\n', x)
+end
+```
+
+Favor simple help sections over complex or overly wording ones.
+
+- Include a one line description
+- (Optional) Long description, if necessary
+- List of input arguments with datatype, description, and whether is optional
+- List of output arguments with the same info as inputs
+- (Optional) Examples
+
+```text
+function [a, b, c] = triangleAngles(x, y, z)
+    % TRIANGLEANGLES Compute angle of a triangle
+    %
+    % Args:
+    %   x (double): triangle side 1
+    %   y (double): triangle side 2
+    %   z (double): triangle side 3
+    %
+    % Returns:
+    %   a (double): angle between side 1 and side 2
+    %   b (double): angle between side 2 and side 3
+    %   c (double): angle between side 1 and side 3
+    %
+    % Examples:
+    %   [a, b, c] = triangleAngles(1, 1, sqrt(2))
+    %   outputs a=90, b=45, c=45
+    %
+    %   [a, b, c] = triangleAngles(3, 4, 5)
+    %   outputs a=90, b=60, c=30
+end
+```
 
 ## Naming Conventions
 
