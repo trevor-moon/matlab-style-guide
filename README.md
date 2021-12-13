@@ -42,6 +42,7 @@ Previously developed style-guides:
 - [MATLAB Style 2.0][matlab-style-2.0]
 - [MATLAB Programming Style Guide][programming-style-guide]
 - [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
+- [MATLAB Guidelines][matlab-guidelienes]
 - [PEP8][pep8-style]
 - [Google Stlye Guides][google-style-guide]
 
@@ -89,6 +90,7 @@ Please contact me if you have any questions or suggestions about the project.
 <a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
 
 <!-- links -->
+[matlab-guidelines]: https://github.com/nschloe/matlab-guidelines
 [proposed-style-guide]: style_guide.md
 [pep8-style]: https://www.python.org/dev/peps/pep-0008/
 [matlab-style-2.0]: https://www.mathworks.com/matlabcentral/fileexchange/46056-matlab-style-guidelines-2-0
