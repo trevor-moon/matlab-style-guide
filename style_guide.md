@@ -4,9 +4,9 @@ This style guide inspired by [PEP8](https://www.python.org/dev/peps/pep-0008/) f
 
 ## Introduction
 
-This document provides coding conventions for MATLAB code. This style guide can/will evolve over time and is a reflection of _my general_ conventions.
+This document provides coding conventions for MATLAB code. This style guide can/will evolve over time and is a reflection of my conventions.
 
-The conventions presented in this document _mostly_ agree with previously developed conventions.
+The conventions presented in this document mostly agree with previously developed conventions.
 
 ## Layout
 
@@ -43,7 +43,7 @@ result = functionWithLongName(...
     );
 ```
 
-This is especially useful when there a multiple keyword/name-value arguments.
+This is especially useful when there are multiple keyword/name-value arguments.
 
 Multiline constructs (e.g., brackets, parenthesis) may either line up under the first non-whitespace character of the last line:
 
@@ -92,7 +92,7 @@ end
 
 Spaces are preferred indentation.
 
-Tabs should **only** be used with existing code using tab indentation.
+Tabs should only be used with existing code using tab indentation.
 
 ### Maximum Line Length
 
@@ -174,7 +174,7 @@ x = 1; y = 1;
 z = x + y;
 ```
 
-If there a long or multiple operators in a single statement, use space sparingly and give whitespace to grouped terms.
+If there are long or multiple operations in a single statement, use spaces sparingly and give whitespace to grouped terms.
 
 ```text
 % preferred
@@ -199,7 +199,7 @@ hypotenuse = a^2 + b^2
 
 Do not have trailing whitespace, e.g., space after command and before a new line.
 
-Use a space around function inputs.
+Use a space around function inputs and output arguments.
 
 ## Comments
 
@@ -212,7 +212,7 @@ Use inline comments sparingly. If an inline comment is included, it should be se
 ```text
 % correct
 x = x + 1;  # my comment
-y = x * 3;      # my other comment
+y = x * 3;      # also acceptable
 
 % wrong
 z = x + y; # bad comment
@@ -220,9 +220,7 @@ z = x + y; # bad comment
 
 ### Documentation
 
-Good documentation is crucial.
-
-You should write documentation for all non-public or non-nested functions. For non-public or non-nested functions, classes, or modules, a single statement providing information of what it does is sufficient.
+Write documentation for all non-public or non-nested functions. For non-public or non-nested functions, classes, or modules, a single statement providing information of what it does is sufficient.
 
 ```text
 % public function definition
@@ -242,9 +240,9 @@ function y = boo(x)
 end
 ```
 
-The help section should inside the function, class, or module definition block. The help section should follow the same indentation rules.
+The help section should be placed inside the function, class, or module definition block. The help section should follow the same indentation rules.
 
-There should be one blank line between the help section and the code. The only exception is for small functions or scripts, e.g, less than 5 lines *or so*.
+There should be one blank line between the help section and the code. The only exception is for small functions or scripts, e.g, less than 5 lines or so, to help distinguish a help section and commented code.
 
 ```text
 function y = boo(x)
@@ -257,18 +255,20 @@ Favor simple help sections over complex or overly wording ones.
 
 - Include a one line description
 - (Optional) Long description, if necessary
-- List of input arguments with datatype, description, and whether is optional
+- List of input arguments with datatype, description, and whether they are optional
 - List of output arguments with the same info as inputs
 - (Optional) Examples
 
 ```text
-function [a, b, c] = triangleAngles(x, y, z)
+function [a, b, c] = triangleAngles(x, y, z, varargin)
     % TRIANGLEANGLES Compute angle of a triangle
     %
     % Args:
     %   x (double): triangle side 1
     %   y (double): triangle side 2
     %   z (double): triangle side 3
+    %   degrees (logical): return angle in degrees. 
+    %       The default is true.
     %
     % Returns:
     %   a (double): angle between side 1 and side 2
