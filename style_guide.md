@@ -69,12 +69,12 @@ The first method is preferred for easier readability between commands.
 Indent all functions - it's just easier to read.
 
 ```text
-# function
+% function
 function n = addTwoNum(a, b)
     n = a + b;
 end
 
-# class
+% class
 class Person
     properties
         name = 'John';
@@ -128,16 +128,16 @@ Use single blank lines sparingly inside functions or methods to indicate logical
 
 ```text
 function m = computeSlope(x1, y1, x2, y2)
-    # slope of a line
-    #   m = dy / dx
-    #   m = rise / run
+    % slope of a line
+    %   m = dy / dx
+    %   m = rise / run
     dy = computeRise(y1, y2);
     dx = computeRun(x1, x2);
     m = dy / dx;
 end
 
 
-# local functions
+% local functions
 function dy = computeRise(y1, y2)
     dy = y2 - y1;
 end
@@ -154,10 +154,10 @@ MATLAB "strings" are unique. Single-quoted text produce character arrays and dou
 For print statements with quotations, consider using double-quote to surround the text and single-quotes around the quoted text.
 
 ```text
-# preferred method
+% preferred method
 fprintf("This is the 'preferred' way of quoting")
 
-# less preferred
+% less preferred
 fprintf('This is '''less preferred''')
 ```
 
@@ -177,13 +177,13 @@ z = x + y;
 If there a long or multiple operators in a single statement, use space sparingly and give whitespace to grouped terms.
 
 ```text
-# preferred
+% preferred
 a = 3;
 b = 4;
 c = a*a + b*b
 a = (b / sin(b)) * sin(A)
 
-# wrong
+% wrong
 c = a * a + b * b
 a = b / sin(b) * sin(A)
 ```
