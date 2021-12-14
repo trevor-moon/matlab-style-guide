@@ -88,8 +88,13 @@ Please contact me if you have any questions or suggestions about the project.
 
 <a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
+<!-- 
+<a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a> -->
 
 <!-- links -->
+[mathworks-blue]: #0072BD
+[mathworks-orange]: #D95319
 [matlab-guidelines]: https://github.com/nschloe/matlab-guidelines
 [proposed-style-guide]: style_guide.md
 [pep8-style]: https://www.python.org/dev/peps/pep-0008/
