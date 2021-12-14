@@ -76,25 +76,18 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 
 If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
 
-## License
-
-See [License](LICENSE.md).
-
-<!-- <a href="https://github.com/trevor-moon/matlab-style-guide/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/trevor-moon/matlab-style-guide"/></a> -->
-
 ## Contact
 
 Please contact me if you have any questions or suggestions about the project.
 
-<a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a>
-<!-- 
-<a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/></a> -->
+<a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white&color=blue" height="25"/></a>
+<a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white&color=blue" height="25"/></a>
+
+## License
+
+<a href="https://github.com/trevor-moon/matlab-style-guide/blob/main/LICENSE.md"><img alt="License" src="https://img.shields.io/github/license/trevor-moon/matlab-style-guide?style=flat&color=blue" height="25"/></a>
 
 <!-- links -->
-[mathworks-blue]: #0072BD
-[mathworks-orange]: #D95319
 [matlab-guidelines]: https://github.com/nschloe/matlab-guidelines
 [proposed-style-guide]: style_guide.md
 [pep8-style]: https://www.python.org/dev/peps/pep-0008/
