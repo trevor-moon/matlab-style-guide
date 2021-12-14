@@ -42,7 +42,7 @@ Previously developed style-guides:
 - [MATLAB Style 2.0][matlab-style-2.0]
 - [MATLAB Programming Style Guide][programming-style-guide]
 - [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
-- [MATLAB Guidelines][matlab-guidelienes]
+- [MATLAB Guidelines][matlab-guidelines]
 - [PEP8][pep8-style]
 - [Google Stlye Guides][google-style-guide]
 
