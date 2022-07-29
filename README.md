@@ -2,6 +2,21 @@
 
 Collection of proposed MATLAB style guides, naming conventions, and recommendations.
 
+## Contents
+
+- [MATLAB Style Guide](#matlab-style-guide)
+  - [Contents](#contents)
+  - [Background](#background)
+  - [Style Guide](#style-guide)
+    - [Previous Works](#previous-works)
+    - [My Recommendation](#my-recommendation)
+  - [Resources](#resources)
+  - [Additional Background](#additional-background)
+  - [Roadmap](#roadmap)
+  - [Contributing](#contributing)
+  - [Contact](#contact)
+  - [License](#license)
+
 ## Background
 
 Each program generally has set standard for coding stlye and naming conventions. However, **MATLAB does not** have an established company or community standard. There have been efforts to develop and agree on a standard, like [PEP8][pep8-style], but some of these resources are conflicting and are scattered across websites and forums.
@@ -17,17 +32,19 @@ Additional background information can be found [here](#additional-background).
 
 **Disclaimer:** The [style guide][proposed-style-guide] in this project is my opinion. However, it follows most of the content/consensus in prior documentation.
 
-> Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
->
-> - [MATLAB Style 2.0][matlab-style-2.0]
-> - [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
-> - [MATLAB Programming Style Guide][programming-style-guide]
->
-> For more downloadable or linked resources, see [Resources](#resources).
+### Previous Works
+
+Briefly, most of the previously developed style guides and naming convention documents are inspired by the same 2 or 3 sources.
+
+- [MATLAB Style 2.0][matlab-style-2.0]
+- [Elements of MATLAB Style][elements-matlab-style] with [updates][elements-matlab-style-updates]
+- [MATLAB Programming Style Guide][programming-style-guide]
+
+For more downloadable or linked resources, see [Resources](#resources).
 
 ### My Recommendation
 
-The complete style guide can be found [here][proposed-style-guide].
+My complete style guide can be found [here][proposed-style-guide].
 
 Do you disagree or see problems? Maybe questions or recommendations? Consider one or more of the following
 
@@ -69,18 +86,22 @@ Historically, MATLAB has used `lowercase` for files in their developed toolboxes
 
 - [ ] Develop comprehensive style-guide
 - [x] Link relevant resources (style-guides, programming conventions, etc)
-- [ ] Website?
-- [ ] Develop contributing document
 
 ## Contributing
 
-If you have any additional resources, recommendations, or proposed changes, please consider contributing by first reading [Contributing](CONTRIBUTING.md).
+If you have any additional resources, recommendations, or proposed changes, please consider contributing by:
+
+1. Submitting an issue
+2. Fork and create a pull request with the desired change
+
+All suggestions are encouraged and welcomed.
 
 ## Contact
 
 Please contact me if you have any questions or suggestions about the project.
 
 <a href="mailto:trevor.r.moon@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white&color=blue" height="25"/></a>
+
 <a href="https://discordapp.com/users/477451290469859339"><img alt="Discord" src="https://img.shields.io/badge/Discord-7289DA?style=flat&logo=discord&logoColor=white&color=blue" height="25"/></a>
 
 ## License
